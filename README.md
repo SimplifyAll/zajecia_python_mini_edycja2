@@ -11,7 +11,7 @@ starać, żeby te rzeczy pojawiały się dzień po zajęciach.
 ## Kursanci korzystający z Windows
 
 Jeśli to tylko możliwe, spróbujcie zainstalować maszynę wirtualną z linuksem.
-Jeśli jednak z jakiś przyczyn to niemożliwe, przyda Wam się co najmniej :code:`pip`.
+Jeśli jednak z jakiś przyczyn to niemożliwe, przyda Wam się co najmniej `pip`.
 Opis instalacji jest tu: https://pip.pypa.io/en/latest/installing/
 
 
