@@ -1,0 +1,1 @@
+# zajecia_python_mini_edycja2
