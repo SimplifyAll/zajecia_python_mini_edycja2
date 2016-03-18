@@ -43,6 +43,4 @@ Tu będziemy rozbudowywać bazę linków do materiałów do samodzielnej nauki.
 
 ## Dodatkowe linki
 
-* Tomek Cudziło [przygotował](https://www.facebook.com/events/1134229629928926/permalink/1143108485707707/?comment_id=1144249695593586)
-garść [wskazówek](https://gist.github.com/tomasz/6a6da097f17f929d1954#uruchamianie-skrypt%C3%B3w) krok-po-kroku dla osób,
-które podczas pierwszych zajęć napotkały na problemy. Dzięki Tomku!
+* [Tomek Cudziło](https://github.com/tomasz) [przygotował](https://www.facebook.com/events/1134229629928926/permalink/1143108485707707/?comment_id=1144249695593586) garść [wskazówek](https://github.com/student-tomasz/daftcode-mini-python-guides) krok-po-kroku dla osób, które podczas pierwszych zajęć napotkały na problemy. Dzięki Tomku!
