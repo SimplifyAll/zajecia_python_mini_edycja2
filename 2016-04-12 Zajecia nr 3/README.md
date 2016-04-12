@@ -1,5 +1,7 @@
 # Zajęcia 3
 
+Adres serwisu API z którego korzystamy: http://fixer.io/
+
 ## Wymagania
 Do zadania na zajęciach 3 będą nam potrzebne biblioteki:
 
