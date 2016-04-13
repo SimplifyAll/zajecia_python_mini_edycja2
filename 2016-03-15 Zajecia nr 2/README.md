@@ -19,7 +19,7 @@ włącznie :) Najciekawsze rozwiązania omówimy na zajęciach!
 ## Omówienie pracy domowej z drugich zajęć
 Wojtek przygotował super-skrypt który porównuje wszystkie nadesłane rozwiązania.
 
-Możecie go pobrać tu: rozwiazania_prac_domowych.zip
+Możecie go pobrać tu: [rozwiazania_prac_domowych.zip](https://github.com/daftcode/zajecia_python_mini_edycja2/raw/master/2016-03-15%20Zajecia%20nr%202/rozwiazania_prac_domowych.zip)
 
 Odpalanie: `python check_app.py`
 
