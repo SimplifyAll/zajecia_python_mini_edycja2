@@ -50,12 +50,18 @@ Praca domowa ma tym razem wiele punktów, można wybrać dowolne zadania z poni�
         - link do oryginalnego pliku obrazka, jeśli nie jest spełniony poprzedni
           warunek
     - dodać popup lub dymek zawierający wszystkie metadane IPTC/EXIF
+- pogrupować program na funkcje wedle własnego uznania
+- pozwolić na podanie dowolnej liczby kategorii `n` (z linii poleceń) tak, aby było
+  `n` kategorii o kolejnych zakresach spełniających warunek `max-min = 255 / n`
+- pozwolić na podanie dowolnego folderu jako tego który zawiera obrazki
+- wypisywać HTML galerii do pliku (nazwa stała lub podana jako argument w konsoli)
+  zamiast printować na konsolę
 - stworzyć gdzieś w kodzie generator(y) (`yield`) (tam, gdzie ma to sens)
 - wygenerować miniaturki (lub wykorzystać istniejące, jeśli są w pliku) i je
   pokazywać zamiast pełnych obrazków (dzięki temu strona się będzie szybciej
   ładować)
 - rozwiązać problem z unikodem jeśli są polskie znaki w kodzie (na zajęciach nie
   działało `galeria.py > wynik.html`)
-- przerobić funkcję SuperObrazek.brightness() tak, aby liczyła jasność tylko raz,
+- przerobić funkcję `SuperObrazek.brightness()` tak, aby liczyła jasność tylko raz,
   a przy następnym wywołaniu zwracała poprzednio policzony wynik.
 - usprawnić kod wedle własnego uznania - optymalizacje, dobre praktyki itp.
