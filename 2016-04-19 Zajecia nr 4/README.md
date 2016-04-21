@@ -53,7 +53,7 @@ Praca domowa ma tym razem wiele punktów, można wybrać dowolne zadania z poni�
 - pogrupować program na funkcje wedle własnego uznania
 - pozwolić na podanie dowolnej liczby kategorii `n` (z linii poleceń) tak, aby było
   `n` kategorii o kolejnych zakresach spełniających warunek `max-min = 255 / n`
-- pozwolić na podanie dowolnego folderu jako tego który zawiera obrazki
+- pozwolić na podanie dowolnego folderu jako tego, który zawiera obrazki
 - wypisywać HTML galerii do pliku (nazwa stała lub podana jako argument w konsoli)
   zamiast printować na konsolę
 - stworzyć gdzieś w kodzie generator(y) (`yield`) (tam, gdzie ma to sens)
