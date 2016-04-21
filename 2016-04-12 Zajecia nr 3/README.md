@@ -64,6 +64,10 @@ sprawdzaniem.
   To zadanie wymaga koniecznie co najmniej jednego zdania komentarza co się
   zmieniło :)
 
+## Omówienie pracy domowej z drugich zajęć
+Wojtek okomentował wszystkie nadesłane rozwiązania.
+
+Plik z rozwiązaniami możecie pobrać tu: [rozwiazania_pracy_domowej_3.zip](https://github.com/daftcode/zajecia_python_mini_edycja2/raw/master/2016-04-12%20Zajecia%20nr%203/rozwiazania_pracy_domowej_3.zip)
 
 ## Wymagania
 Do zadania na zajęciach 3 będą nam potrzebne biblioteki:
