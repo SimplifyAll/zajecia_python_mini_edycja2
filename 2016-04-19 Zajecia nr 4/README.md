@@ -18,6 +18,7 @@ Aby go zainstalować, wystarczy wydać w konsoli komendy:
 Część osób już skorzystała przy poprzedniej pracy domowej z pomocy linterów,
 czyli programów wskazujących na problemy stylistyczne z kodem (brak spacji,
 nieodpowiednie wcięcia itp).
+
 Dla chętnych polecamy wykorzystanie linterów do Sublime'a. Trzeba [zainstalować
 obsługę pluginów do Sublime'a](https://packagecontrol.io/installation), a
 następnie [doinstalować](https://packagecontrol.io/docs/usage) jakiegoś lintera,
@@ -25,6 +26,7 @@ przykładowo [Python Flake​8 Lint](https://packagecontrol.io/packages/Python%2
 czy [Sublime​Linter](https://packagecontrol.io/packages/SublimeLinter) plus 
 [Sublime​Linter-pep​8](https://packagecontrol.io/packages/SublimeLinter-pep8) plus
 `sudo pip install pep8`.
+
 Warto zauważyć, że różne IDE do Pythona typu PyCharm mają najczęściej wbudowanego
 lintera. Co nie znaczy, że Sublime z pluginami sobie radzi z czymkolwiek gorzej.
 
