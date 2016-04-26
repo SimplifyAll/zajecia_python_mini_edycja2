@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,700&subset=latin,latin-ext);
+
+body {
+    background-color: white;
+    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 20pt;
+}
+a{
+    color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    border: none;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 18pt;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    background-color: #cd6723;
+    background: linear-gradient(to bottom, #cd6723 0%,#bb492d 100%);
+    color: white;
+    border-bottom: 1px solid #992f21;
+    box-shadow: 0 0 3px grey;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-weight: 700;
+    background-color: #cd6723;
+    background: linear-gradient(to bottom, #cd6723 0%,#bb492d 100%);
+    color: white;
+    border-bottom: 1px solid #992f21;
+    box-shadow: 0 0 3px grey;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+form {
+    width: 100%;
+}
+input[type="text"] {
+    font-size: 24pt;
+    width: 80%;
+    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 1px solid grey;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 10%;
+    font-size: 22pt;
+    font-weight: 400;
+    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 10px;
+}
+
+th {
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+}
+
+td {
+    font-weight: 300;
+    padding: 10px;
+    border: none;
+}
+
+tr {
+    border-top: 1px solid #e7e7e7;
+}
+
+tr.done {
+    background-color: #EEFFEE;
+}
+tr.undone {
+    background-color: #FFEEEE;
+}
+
+tr.done:hover {
+    background-color: #DDEEDD;
+}
+tr.undone:hover{
+    background-color: #EEDDDD;
+}
+
+
+#form_div {
+    position: relative;
+}
+#ajax_result {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: 400;
+    top: 0;
+    background: rgb(222,222,222);
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#ajax_result p {
+    padding: 10px;
+}
