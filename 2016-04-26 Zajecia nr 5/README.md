@@ -1,5 +1,7 @@
 # Zajęcia 5
 
+Prace domowe z poprzednich zajęć wraz z komentarzami są w katalogu zajęć 4.
+
 ## Wymagania
 
 Będzie nam potrzebny pakiet `bottle`.

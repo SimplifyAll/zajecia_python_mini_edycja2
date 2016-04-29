@@ -1,0 +1,80 @@
+Ogólne
+- nikt nie napisał jak uruchomić wasz program (jakie argumenty są wymagane, opcjonalne, kolejność, co się dostanie na wyjściu, ...)
+- za długie linie (>80 znaków)
+- używanie range tam gdzie wystarczy xrange
+- `+` nie jest najwydajniejszym sposobem łączenia stringów
+- można pisać `if min_b < brightness < max_b:`
+- miszmasz nazw polskich i angielskich np: `self.jasnosc.append(wyliczonaJasnosc)`
+
+* Problem kodowania: najłatwiej zapisać do pliku z ustawionym kodowaniem + w templatce html dodać jakie jest kodowanie
+
+Antoni Szych (program z zajęć) real	0m0.661s
+
+
+Marek Pankowski real	0m4.090s <- musiałem wpisać folder w trakcie działania programu...
+- wystarczy sam kod, bez obrazków, bez przykładowych folderów i przykładowej galerii
+- użycie dodatkowej biblioteki bez podania wersji, skąd ją wziąć, itd ...
+- exifread użyte ale dane nie trafiają do html ... 
+- przedziwna metoda listowania katalogów
+- używaj os.path.join do łączenia ścieżek
+- `+` nie jest najwydajniejszym sposobem łączenia stringów
+
+± Najlepiej ze wszystkich rozwiązałeś problem kodowania przy zapisie do pliku (można ciut łatwiej), ale nie dodałeś informacji o kodowaniu do generowanego html
+
+Maciej Sykuła real	0m0.556s
+- brak argparse
+- brzydko wygląda galeria
+- dorzucenie miniaturek do katalogu z obrazkami a nie do np nowego katalogu `.thumbnails`
+- lista plików zamiast generatora
+- nadmiarowe pętle
+- pomieszany kod (nibe jest sekcja "__main__", ale prawie z niej nie korzystasz
+
+± instrukcja użycia na początku kodu, przy błędnym użyciu mógł się help pokazać na stderr a nie IndexError
+± podział na kategorie jasności, nie obsłużone wartości brzegowe (<1, >255)
+± linki do pełnych obrazków, niestety obok obrazka
+
++ użycie xrange
+
+
+Maciej Barkowski real	0m1.202s
+- kodowanie ISO-8859-2 w pliku py mimo podania `#-*-coding: utf-8-*-`
+- za długie linie (>80 znaków)
+- część funckji zdefiniowana w `if __name__ == "__main__":`
+- doklejanie rozszerzenia pliku wynikowego
+- galeria wygląda brzydko
+- brak podanego kodowania w html - źle się wyświetla u ludzi z innym domyślnym niż ISO-8859-2
+- jakieś sztuczki z przechowywaniem jasności w tablicy i konwersje na int w kilku miejscach, można o wiele łatwiej
+- lista plików zamiast generatora
+- `+` nie jest najwydajniejszym sposobem łączenia stringów
+- dorzucenie miniaturek do katalogu z obrazkami a nie do np nowego katalogu `.thumbnails`
+
+± użycie argparse
+
++ podanie ścieżki z obrazkami
++ kliknięcie w obrazek otwiera go w oryginalnym rozmiarze
+
+
+Marcin Zieńko
+- NIE DZIAŁA!!! AttributeError: 'list' object has no attribute 'max_brightness', dalej kolejne wyjątki ...
+- brak argparse
+- brak sekcji __main__ 
+
++ długość linii (<80 znaków)
+
+
+Marta Klimaszewska real	0m0.395s
+- mieszanka językowa angielsko-polska
+- nie użyty moduł argparse, https://docs.python.org/2.7/library/argparse.html
+- za długie linie (>80 znaków)
+- sys.setdefaultencoding("utf-8") <- rozwiązało problem kodowania, ale potencjalnie jest bardzo niebezpieczne
+- dziwne castowanie int(cos_do_zamiany_na_int) wystarczy
+- zamiast `[n, pic_path] = set_parameters()` można `n, pic_path = set_parameters()`
+- `+` nie jest najwydajniejszym sposobem łączenia stringów
+
+± podział na kategorie jasności, nie obsłużone wartości brzegowe (<1, >255)
+
++ kliknięcie w obrazek otwiera go w oryginalnym rozmiarze
++ podanie ścieżki z obrazkami
++ przyjazny w użyciu za 1 razem (mimo, że twoja metoda jest ciut zbyt interaktywna to dała radę)
++ generator do iterowania po plikach
+
