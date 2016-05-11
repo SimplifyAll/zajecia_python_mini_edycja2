@@ -10,7 +10,7 @@ print bool([])
 print bool(tupla)
 print bool(tuple())
 
-zbior = set((1, 4, 6, 2, 1, 5, 3))
+zbior = set((1, 5, 6, 2, 1, 5, 3))
 zbior2 = set((3, 2, 1))
 
 print zbior.union(zbior2)
